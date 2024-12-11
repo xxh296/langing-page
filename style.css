@@ -7,3 +7,36 @@
     /* DEBUG */
     outline: red 2px dashed;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, 
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    height: 3em;
+    align-items: center;
+}
+
+.section1 {
+    display: flex;
+}
+
+.section2 {
+    display: flex;
+}
+
+.section3 {
+    display: flex;
+}
+
+
+

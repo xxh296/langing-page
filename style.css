@@ -17,24 +17,39 @@ header,
 footer {
     background-color: #1f2937;
     color: #f9faf8;
+    display: flex;    
+}
+
+header {
+    height: 15em;
+}
+
+.header-left,
+.header-right {
+    height: 15em;
     display: flex;
-    justify-content: center;
+    flex: 1;
 }
 
 footer {
     height: 3em;
     align-items: center;
+    justify-content: center;
 }
 
 .section1 {
+    height: 15em;
     display: flex;
 }
 
 .section2 {
+    height: 14em;
     display: flex;
+    
 }
 
 .section3 {
+    height: 14em;
     display: flex;
 }
 

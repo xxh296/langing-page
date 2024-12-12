@@ -26,7 +26,7 @@ header {
 
 .header-left,
 .header-right {
-    height: 20em;
+    height: 16em;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -84,6 +84,10 @@ button {
     height: 8em;
     width: auto;
     background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 footer {
@@ -96,33 +100,38 @@ footer {
     height: 20em;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .section1 h1 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin: 0.5em 0;
 }
 
 .squares-holder {
     display: flex;
-    flex: 1;
 }
 
 .placeholder-card {
     height: 10em;
     width: 10em;
+    margin: 0.5em 2em;
 }
 
 .image-square {
     height: 8em;
     width: 8em;
-    /* TODO: round corners */
+    outline: #3882f6 4px solid;
+    border-radius: 12px;
+    margin-bottom: 8px;
 }
 
 .placeholder-card {
     height: 2em;
     width: 8em;
+    text-align: center;
 }
 
 .section2 {
@@ -169,6 +178,3 @@ footer {
     color: #f9faf8;
     display: inline;
 }
-
-
-

@@ -132,5 +132,26 @@ footer {
     display: flex;
 }
 
+.cta-box {
+    background-color: #3882f6;
+    width: 70%;
+    height: 5em;
+}
+
+.cta-box button {
+    border: #f9faf8 2px solid;
+    color: #f9faf8;
+}
+
+.cta-box h1 {
+    font-size: 28px;
+    color: #f9faf8;
+}
+
+.cta-box p {
+    color: #f9faf8;
+    display: inline;
+}
+
 
 

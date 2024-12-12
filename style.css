@@ -28,7 +28,40 @@ header {
 .header-right {
     height: 15em;
     display: flex;
+    flex-direction: column;
     flex: 1;
+}
+
+.logo-header {
+    /* height: 1.5em; */
+    /* padding-top: 1em; */
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.content-header,
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+.img-placeholder {
+    height: 8em;
+    width: auto;
+    background-color: gray;
 }
 
 footer {

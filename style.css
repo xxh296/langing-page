@@ -52,6 +52,11 @@ header {
     color: #e5e7eb;
 }
 
+.header-links {
+    text-align: right;
+    margin-bottom: 3em;
+}
+
 .content-header p {
     width: 32em;
     margin-bottom: 0.5em;
@@ -59,7 +64,6 @@ header {
 
 .header-left h1 {
     font-size: 48px;
-    /* margin-bottom: 0.25em; */
 }
 
 button {
@@ -70,9 +74,10 @@ button {
 
 }
 
-li {
+.header-links li {
     list-style-type: none;
     display: inline;
+    margin: 10px;
 }
 
 .img-placeholder {

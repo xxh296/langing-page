@@ -33,8 +33,6 @@ header {
 }
 
 .logo-header {
-    /* height: 1.5em; */
-    /* padding-top: 1em; */
     font-size: 24px;
     font-weight: 700;
 }
@@ -75,12 +73,6 @@ footer {
     display: flex;
     flex-direction: column;
 }
-
-/* .info-header-text {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
-} */
 
 .section1 h1 {
     font-size: 36px;
